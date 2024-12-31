@@ -1,0 +1,253 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.navbar-container {
+  height: 8.6%;
+  width: 100vw;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+  width: 100vw;
+  margin-top: 9.5%;
+}
+
+.side-menu-container {
+  width: 5vw;
+  height: 100%;
+}
+
+.nxt-watch-container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  width: 90%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.light-theme-videos-and-search-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ebebeb;
+  background-size: cover;
+  height: auto;
+  width: 85vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.dark-theme-videos-and-search-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #181818;
+  background-size: cover;
+  height: auto;
+  width: 85vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.light-theme-search-input {
+  width: 350px;
+  height: 35px;
+  padding-left: 12px;
+  margin-left: 40px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  border: 2px solid #cccccc;
+}
+
+.dark-theme-search-input {
+  width: 350px;
+  height: 35px;
+  padding-left: 12px;
+  margin-left: 40px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  border: 2px solid #313131;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.light-search-icon-container {
+  width: 70px;
+  height: 35px;
+  background-color: #f4f4f4;
+  border: 2px solid #cccccc;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-search-icon-container {
+  width: 70px;
+  height: 35px;
+  background-color: #424242;
+  border: 2px solid #313131;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.light-search-icon {
+  color: #909090;
+  cursor: pointer;
+  outline: none;
+  height: 20px;
+  width: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.dark-search-icon {
+  color: #606060;
+  cursor: pointer;
+  outline: none;
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.videos-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.video-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style-type: none;
+  width: 360px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.thumbnail-url {
+  width: 360px;
+  height: 220px;
+}
+
+.profile-image-and-video-content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.profile-image {
+  width: 35px;
+  height: 35px;
+  margin-right: 12px;
+  margin-top: 10px;
+}
+
+.dark-title {
+  color: #231f20;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.white-title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.channel {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.views-and-published-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.views {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 400;
+  margin-right: 25px;
+}
+
+.published-at {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 400;
+  list-style-type: disc;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+
+.failure-view {
+  width: 300px;
+  height: 250px;
+}
+
+.failure-heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.failure-description {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.retry-btn {
+  background-color: #4f46e5;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  height: 35px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}

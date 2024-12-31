@@ -1,0 +1,111 @@
+.navbar-side-menu-not-found-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.side-menu-and-not-found-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  overflow: hidden;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebebeb;
+  background-size: cover;
+  height: 90vh;
+  width: 85vw;
+}
+
+.not-found-view {
+  width: 300px;
+  height: 250px;
+}
+
+.not-found-heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.not-found-description {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+  margin-top: 20px;
+}
+
+.lists-and-contact-us-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 15vw;
+}
+
+.lists-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.react-icons {
+  color: #383838;
+  width: 17px;
+  height: 17px;
+  margin-right: 17px;
+}
+
+.list-name {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.contact-us-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+
+.description {
+  color: #181818;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.social-media-icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.social-media-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}

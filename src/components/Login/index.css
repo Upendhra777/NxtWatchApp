@@ -1,0 +1,137 @@
+.light-theme-login-container {
+  background-color: #f9f9f9;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-theme-login-container {
+  background-color: #313131;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.light-theme-login-form-container {
+  background-color: #ffffff;
+  width: 400px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dark-theme-login-form-container {
+  background-color: #000000;
+  width: 400px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nxt-watch-logo {
+  width: 150px;
+  height: 40px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+}
+
+.light-theme-input-label {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.dark-theme-input-label {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.light-theme-user-input {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #1e293b;
+  border-radius: 3px;
+  padding-left: 12px;
+  margin-top: 5px;
+}
+
+.dark-theme-user-input {
+  width: 300px;
+  height: 30px;
+  color: #ffffff;
+  border: 2px solid #313131;
+  background-color: #181818;
+  border-radius: 3px;
+  padding-left: 12px;
+  margin-top: 5px;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-start;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.checkbox-input {
+  width: 24px;
+  height: 13px;
+}
+
+.light-theme-show-password-text {
+  color: #0f0f0f;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.dark-theme-show-password-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.login-btn {
+  background-color: #4f46e5;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  width: 75%;
+  height: 30px;
+  border: none;
+  border-radius: 7px;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.err-msg {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  align-self: flex-start;
+  margin-left: 50px;
+}
